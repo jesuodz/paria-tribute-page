@@ -96,23 +96,23 @@ body, html {
     color: #f4f4f4;
 }
 header {
-    background-image: url('../img/image-header.jpeg');
+    background-image: url('../assets/backgrounds/image-header.jpeg');
     min-height: 100%;
 }
 .img1 {
-    background-image: url('../img/image1.jpg');
+    background-image: url('../assets/backgrounds/image1.jpg');
     min-height: 500px;
 }
 .img2 {
-    background-image: url('../img/image2.jpg');
+    background-image: url('../assets/backgrounds/image2.jpg');
     min-height: 500px;
 }
 .img3 {
-    background-image: url('../img/image3.jpg');
+    background-image: url('../assets/backgrounds/image3.jpg');
     min-height: 500px;
 }
 .img4 {
-    background-image: url('../img/image4.jpg');
+    background-image: url('../assets/backgrounds/image4.jpg');
     min-height: 500px;
 }
 
