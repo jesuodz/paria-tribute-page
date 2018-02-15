@@ -1,0 +1,272 @@
+/*  http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/*HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+
+/* 
+    ========================
+    CUSTOM STYLES
+    ========================
+*/
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background-color: #f4f4f4;
+    color: #444444;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*
+    ========================
+    TYPOGRAPHY
+    ========================
+*/
+
+.box-text-content {
+    padding: 0 10%;
+    margin: 6% 0;
+}
+.text-content {
+    font-size: 20px;
+    font-weight: 300;
+    word-spacing: 5px;
+    text-align: right;
+    letter-spacing: 2px;
+    line-height: 1.6;
+}
+.second p {
+    text-align: left;
+}
+
+/*
+    ========================
+    BACKGROUND IMAGES
+    ========================
+*/
+
+.backgrounds {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #f4f4f4;
+}
+header {
+    background-image: url('../assets/backgrounds/image-header.jpeg');
+    min-height: 100%;
+}
+.img1 {
+    background-image: url('../assets/backgrounds/image1.jpg');
+    min-height: 500px;
+}
+.img2 {
+    background-image: url('../assets/backgrounds/image2.jpg');
+    min-height: 500px;
+}
+.img3 {
+    background-image: url('../assets/backgrounds/image3.jpg');
+    min-height: 500px;
+}
+.img4 {
+    background-image: url('../assets/backgrounds/image4.jpg');
+    min-height: 500px;
+}
+
+/*
+    ========================
+    NAVIGATION
+    ========================
+*/
+
+.nav {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    background-color: #252525;
+    color: #f4f4f4;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav li {
+    display: inline-block;
+    padding: 1.5% 25px;
+}
+.nav a {
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0;
+}
+li:hover {
+    background-color: #3b3b3b;
+    cursor: pointer;
+}
+.nav a:hover {
+    color: #f4f4f4;
+}
+
+/*
+    ========================
+    LINKS
+    ========================
+*/
+
+a {
+    color: inherit;
+}
+a:hover {
+    color: #777777;
+}
+
+/*
+    ========================
+    FOOTER
+    ========================
+*/
+
+footer {
+    padding: 30px 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+hr {
+    display: block;
+    height: 1px;
+    border-top: 1px #3b3b3b solid;
+    padding: 0;
+    width: 30%;
+    margin-bottom: 3%;
+}
+small a {
+    color: #000;
+}
+/*
+    ========================
+    BOXES
+    ========================
+*/
+
+.caption {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 12px;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.box-caption {
+    background-color: #252525;
+    padding: 20px;
+}
+
+/*
+    ========================
+    MEDIA
+    ========================
+*/
+
+@media(max-width: 900px) {
+    /* All boxes */
+    .box-text-content {
+        padding-left: 10%;
+        padding-right: 4%;
+        margin: 6% 0;
+    }
+    .text-content {
+        font-size: 18px;
+        letter-spacing: 0;
+    }
+    /* Second box */
+    .second {
+        padding-left: 4%;
+        padding-right: 10%;
+    }
+    /* FOOTER AND SECTION DIVISOR */
+    hr {
+        margin-bottom: 3%;
+    }
+}
+@media(max-width: 568px) {
+    /* All backgrounds */
+    .backgrounds {
+        font-size: 1.4rem;
+        background-attachment: scroll;
+    }
+    hr {
+        width: 50%;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .caption {
+        font-size: 20px;
+        letter-spacing: 8px;
+    }
+    /* All boxes */
+    .box-text-content {
+        padding-left: 14%;
+        padding-right: 6%;
+        margin: 12% 0;
+    }
+    /* Second box */
+    .second {
+        padding-left: 6%;
+        padding-right: 14%;
+    }
+}
