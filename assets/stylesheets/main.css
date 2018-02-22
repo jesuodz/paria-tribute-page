@@ -126,7 +126,7 @@ header {
     position: absolute;
     bottom: 0%;
     width: 100%;
-    background-color: #252525;
+    background: linear-gradient( transparent, #252525);
     color: #f4f4f4;
     font-family: "Montserrat", sans-serif;
     text-align: center;
@@ -148,7 +148,7 @@ ul {
     margin: 0;
 }
 li:hover {
-    background-color: #3b3b3b;
+    background: linear-gradient( transparent, #3b3b3b);
     cursor: pointer;
 }
 .nav a:hover {
