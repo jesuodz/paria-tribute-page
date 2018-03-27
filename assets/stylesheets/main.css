@@ -180,6 +180,23 @@ ul {
 
 /*
     ========================
+    CALL-TO-ACTIOND SECTION
+    ========================
+*/
+
+.call-to-action {
+    text-align: center;
+    background-color: #444444;
+    background-size: cover;
+    color: #f4f4f4;
+    padding: 10% 0;
+}
+.call-to-action p {
+    font-size: 32px;
+}
+
+/*
+    ========================
     LINKS
     ========================
 */
