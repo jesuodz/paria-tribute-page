@@ -286,6 +286,12 @@ small a {
         width: 49.9999%;
         margin: 6px 0;
     }
+    .call-to-action {
+        padding: 14% 0;
+    }
+    .call-to-action p {
+        font-size: 24px;
+    }
 }
 @media ( min-width: 768px ) {
     .nav {
@@ -301,9 +307,6 @@ small a {
     .backgrounds {
         font-size: 1.4rem;
         background-attachment: scroll;
-    }
-    hr {
-        width: 50%;
     }
     h1 {
         font-size: 20px;
@@ -336,5 +339,8 @@ small a {
     }
     .nav a:hover {
         background: none;
+    }
+    .call-to-action p {
+        font-size: 18px;
     }
 }
